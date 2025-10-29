@@ -1,0 +1,73 @@
+{
+  "configVersion": 1,
+  "timestamp": 1761757869944,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/861.908b5c327046b868.js",
+        "/favicon.ico",
+        "/index.html",
+        "/main.eb5b8c57d6803f13.js",
+        "/manifest.webmanifest",
+        "/polyfills.9f5019b0f12f1890.js",
+        "/runtime.c10aa9910d1ecf5a.js",
+        "/styles.eefbe3aafeef90ca.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/coin.png",
+        "/logo.png",
+        "/vault.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/861.908b5c327046b868.js": "feb353785b9107a093765408c88937664b1423ad",
+    "/assets/coin.png": "5009382dff3a6389b0efee7ba258f6aa2d4776c7",
+    "/favicon.ico": "289e03a954a98ea262e8a8ece85cdafbd3c311d9",
+    "/index.html": "d021f13cade93097c4e192052b4dead10fe3cbe6",
+    "/logo.png": "289e03a954a98ea262e8a8ece85cdafbd3c311d9",
+    "/main.eb5b8c57d6803f13.js": "0503d93a32392698c863207c1b664551a8e984af",
+    "/manifest.webmanifest": "9f8e7e4eef81370e40d7dd7083443403b77ea84d",
+    "/polyfills.9f5019b0f12f1890.js": "e5130a11c2b5c4f0284e8c904a6532261135e6df",
+    "/runtime.c10aa9910d1ecf5a.js": "ef448fef07dfad88e67462a21e14faedb6e28580",
+    "/styles.eefbe3aafeef90ca.css": "5166d36a1f500662c36e8f26184d91cd6582eee5",
+    "/vault.jpg": "660e0b35231801bd2b9d9bc881d24076a399bdb9"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
